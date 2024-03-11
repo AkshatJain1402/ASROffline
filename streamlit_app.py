@@ -1,14 +1,14 @@
 #start
 import streamlit as st
 col1,col2 ,col3=st.columns(3)
-
+st.image("UI.jpg", caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 with st.container():
     
     st.title("Customer Care")
-    st.image("UI.jpg", caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+    
     with col1:
         st.header("streaming ASR")
-        st.image("https://static.streamlit.io/examples/cat.jpg")
+        
 
         
         clicked=st.button("Click me for translation",key="my_btn")
