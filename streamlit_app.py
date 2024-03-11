@@ -15,7 +15,7 @@ with st.container():
     with col2:
         st.header("offline ASR")
         st.file_uploader("upload your recording ", type=None, accept_multiple_files=False, key=None,  on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
-        clicked=st.button("Click me for translation",key="my_btn")
+        clicked=st.button("Click me for translation")
     with col3:
         st.header('Results')
         text_contents="the results "
