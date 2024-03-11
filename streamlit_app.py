@@ -1,10 +1,15 @@
 #start
+#to see changes in your local browser just run $ streamlit run streamlit_app.py
 import streamlit as st
-col1,col2 ,col3=st.columns(3)
 st.image("UI.jpg", caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+st.title("Customer Care")
+
+col1,col2 ,col3=st.columns(3)
+
+
 with st.container():
     
-    st.title("Customer Care")
+   
     
     with col1:
         st.header("streaming ASR")
